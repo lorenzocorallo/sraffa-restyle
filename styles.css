@@ -1,0 +1,400 @@
+* {
+  box-sizing: border-box !important;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 90%;
+}
+
+body.body-style {
+  overflow-x: hidden;
+  background-color: rgb(31, 31, 31);
+  color: white;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: rgb(25, 223, 85) !important;
+}
+
+span {
+  color: rgb(255, 253, 154) !important;
+}
+
+#centrecontent table td {
+  background-color: rgb(59, 59, 59) !important;
+  border: 1px solid rgb(95, 95, 95) !important;
+}
+
+table {
+  border-collapse: unset;
+  border-spacing: 0;
+}
+
+#rightsidebar h2,
+.hdate,
+.sotto-pagine li:hover,
+#centrecontent a img:hover {
+  background-color: rgb(20, 105, 17) !important;
+  padding: 1rem;
+  color: #fff !important;
+}
+
+body.body-style::-webkit-scrollbar {
+  width: 15px;
+}
+body.body-style::-webkit-scrollbar-thumb {
+  background-color: #585858;
+}
+body.body-style::-webkit-scrollbar-track {
+  background-color: rgb(124, 124, 124);
+}
+
+#wrapper.style {
+  max-width: 100vw;
+  margin: 0;
+  background-color: rgb(31, 31, 31);
+  width: 100%;
+}
+
+#header {
+  border-radius: 0 !important;
+}
+
+#header ul#menu-contatti.style {
+  margin: 0;
+  background-color: rgb(53, 53, 53);
+  height: auto;
+}
+
+#header ul#menu-contatti.style li a {
+  transition: all 0.3s ease;
+  border: none;
+  padding: 8px 12px;
+}
+#header ul#menu-contatti.style li a:hover {
+  background-color: rgb(77, 77, 77);
+  color: white;
+}
+ul#menu-menu-orizzontale.style {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  justify-content: flex-start;
+  align-self: flex-start;
+  padding: 0;
+  left: 0;
+  height: 100%;
+  flex: 1 1;
+}
+#menu-menu-orizzontale.style li a {
+  padding: 1rem;
+  border: none;
+  height: 100%;
+  background-color: transparent;
+}
+#menu-menu-orizzontale.style li a:hover {
+  background-color: rgb(70, 70, 70);
+  color: white;
+}
+#menu-menu-orizzontale li:first-child a {
+  width: 100% !important;
+  padding: 1rem 2rem;
+  background-color: rgb(54, 113, 182) !important;
+  color: white !important;
+}
+#menu-menu-orizzontale li:first-child a:hover {
+  background-color: rgb(23, 70, 124) !important;
+}
+
+#topbar ul li.current_page_item a {
+  background-color: rgb(43, 44, 131) !important;
+  color: white !important;
+}
+
+#topbar.style {
+  min-height: 3rem;
+  background: rgb(44, 44, 44);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#topbar ul li a {
+  background-color: rgb(75, 75, 75);
+}
+
+#searchform #s.style {
+  height: 2.5rem;
+  background: rgb(59, 59, 59);
+  border-radius: 6px;
+  padding: 0 0.8rem;
+  outline: none;
+  font-size: 1.2rem;
+  border: none;
+  color: rgb(228, 228, 228);
+}
+
+#searchform {
+  margin: 0;
+  right: unset;
+  position: unset;
+}
+
+#searchform #s.style:hover {
+  background: rgb(66, 66, 66);
+}
+#searchform #s.style:focus {
+  background: rgb(75, 75, 75);
+}
+
+.topsearch-div input,
+textarea,
+select {
+  box-shadow: none !important ;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: rgb(163, 195, 255) !important;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.widgettitle.style {
+  border: none !important;
+  color: white;
+  font-size: 1.3rem !important;
+  font-weight: 500;
+  letter-spacing: 1.1px;
+}
+
+#leftsidebar.style li {
+  list-style: none;
+}
+
+#leftsidebar.style a {
+  padding: 4px 0;
+}
+
+#leftsidebar.style a:hover {
+  text-decoration: none !important;
+  color: rgb(54, 117, 236) !important;
+}
+
+#leftsidebar .widget_nav_menu.style {
+  margin: 1rem 0;
+  width: 100%;
+}
+
+#rightsidebar.style ul {
+  padding: 0;
+}
+#rightsidebar.style li {
+  border: none !important;
+}
+#rightsidebar.style a {
+  padding: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+#rightsidebar.style img {
+  width: 100%;
+  transition: all 0.3s ease;
+  image-rendering: optimizeQuality;
+}
+#rightsidebar.style h2 {
+  width: 100%;
+}
+
+#rightsidebar.style ul .rightsidebar-link {
+  transition: all 0.3s ease;
+  padding: 0.65rem 0;
+  background-color: rgb(44, 44, 44);
+}
+#rightsidebar.style ul .rightsidebar-link:hover {
+  background-color: rgb(56, 56, 56);
+  text-decoration: none;
+}
+#rightsidebar.style ul .rightsidebar-img-link {
+  transition: all 0.3s ease;
+  margin: 0.65rem 0;
+}
+
+#rightsidebar.style ul .rightsidebar-img-link:hover {
+  background: #ffffff;
+}
+#rightsidebar.style ul .rightsidebar-img-link:hover img {
+  filter: opacity(0.9);
+}
+
+span.hdate {
+  padding: 3px 5px;
+  border-radius: 6px;
+}
+
+table.em-calendar {
+  width: 100% !important;
+  margin: 0;
+}
+
+table.em-calendar td {
+  padding: 0.6rem !important;
+  background-color: rgb(59, 59, 59);
+}
+table.em-calendar td.calendar-link {
+  padding: 0 !important;
+  background-color: rgb(75, 75, 75);
+}
+
+table.em-calendar td.calendar-link a {
+  background-color: transparent !important;
+  padding: 0.6rem !important;
+}
+
+.circolari-div h2,
+.posts-div h2 {
+  margin: 1.5rem 0 !important;
+}
+.circolari-div br,
+.posts-div br {
+  display: none;
+}
+/* .circolari-ul{} */
+.circolari-item {
+  padding: 0.5rem 0.3rem;
+  display: flex;
+  align-items: center;
+  background-color: rgb(44, 44, 44);
+  margin: 0.5rem 0;
+  min-height: 2rem;
+}
+.posts-item {
+  padding: 0.5rem 0.3rem;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(44, 44, 44);
+  margin: 0.5rem 0;
+  min-height: 2rem;
+  max-height: unset;
+  flex-direction: column;
+}
+.posts-item h3 {
+  display: flex;
+  align-items: center;
+  margin: 0.5rem 0;
+  width: 100%;
+}
+
+.circolari-item span.hdate,
+.posts-item span.hdate {
+  min-width: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 2rem;
+}
+
+.posts-item span p {
+  line-height: 22px;
+}
+
+.circolari-item a,
+.posts-item a {
+  padding: 0.5rem 0.3rem;
+  text-decoration: none;
+}
+
+.showall_widget.style {
+  background-color: transparent !important;
+}
+.showall_widget.after_widget_title.style a {
+  padding: 0.5rem;
+  background: rgb(44, 44, 44);
+  border-radius: 8px;
+}
+.showall_widget.after_widget_title.style a:hover {
+  background: rgb(66, 66, 66);
+}
+
+.homec a {
+  width: unset !important;
+}
+
+.slideshow_view img:hover {
+  background-color: unset !important;
+  padding: 0 !important;
+}
+
+.post.style .posttitle {
+  padding: 5px 0;
+  border-bottom: 1px solid grey;
+}
+.post.style .postentry div {
+  padding: 3px 0;
+  line-height: 18px;
+}
+
+.post.style .postentry .postmeta {
+  border: none;
+  border-color: transparent;
+  border-radius: 0;
+  display: flex;
+  align-items: center;
+  background-color: rgb(44, 44, 44);
+}
+.post.style .postentry .postmeta p {
+  font-size: 1rem;
+  line-height: 12px;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.post.style .lastmodified {
+  font-size: 0.9rem;
+}
+
+.postentry div {
+  padding: 1rem 0;
+}
+
+.sotto-pagine.style {
+  margin: 0;
+  background-color: rgb(44, 44, 44);
+  max-height: unset;
+  padding: 0;
+  display: block;
+  float: unset;
+}
+
+.sotto-pagine.style ul {
+  padding: 0;
+  max-height: unset;
+}
+#centrecontent .sotto-pagine.style li.page_item {
+  background-color: rgb(44, 44, 44) !important;
+  color: rgb(255, 255, 255) !important;
+  padding: 1rem;
+  padding-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#centrecontent .sotto-pagine.style li.page_item:hover {
+  background-color: rgb(66, 66, 66) !important;
+  color: rgb(255, 255, 255) !important;
+  padding: 1rem;
+}

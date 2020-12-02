@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Sraffa Restyle",
+  "author": "Lorenzo Corallo",
+  "description": "Apply modern stylesheet for https://iiscuriesraffa.it",
+  "version": "1.0.0",
+  "icons": { "128": "./icons/icon_128.png" },
+  "browser_action": {
+    "default_icon": "./icons/icon.png",
+    "default_popup": "./popup.html"
+  },
+  "permissions": ["https://www.iiscuriesraffa.it/*"],
+  "content_scripts": [
+    {
+      "js": ["./style.js"],
+      "css": ["./styles.css"],
+      "matches": ["https://*.iiscuriesraffa.it/*"],
+      "run_at": "document_idle"
+    }
+  ]
+}
